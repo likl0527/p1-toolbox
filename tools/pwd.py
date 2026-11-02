@@ -14,7 +14,7 @@ POOL = string.ascii_uppercase + string.ascii_lowercase + string.digits + "!@#$%^
 
 
 def run(args):
-    # 第一步:要几位?没说就默认 12
+    # 第一步:要几位?没说就默认 16
     if not args:
         n = 16
     else:
