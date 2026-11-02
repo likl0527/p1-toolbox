@@ -4,7 +4,7 @@
 
 用法:
     python toolbox.py pwd 12      生成一个 12 位的随机强密码
-    python toolbox.py pwd         不给位数就默认 12 位
+    python toolbox.py pwd         不给位数就默认 16 位
 """
 import random
 import string
