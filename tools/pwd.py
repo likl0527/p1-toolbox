@@ -3,7 +3,7 @@
 需求原文:"我要密码工具:我输入位数(比如 12),它输出一个 12 位的随机强密码"
 
 用法:
-    python toolbox.py pwd 12      生成一个 12 位的随机强密码
+    python toolbox.py pwd 16      生成一个 16 位的随机强密码
     python toolbox.py pwd         不给位数就默认 16 位
 """
 import random
